@@ -1,0 +1,17 @@
+{
+  "project": "Test",
+  "platform": "ios",
+  "github": {
+    "owner": "aswin-codes",
+    "repo": "Temp"
+  },
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
