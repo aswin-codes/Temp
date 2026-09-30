@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+*.local
+.vercel/
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Env
+.env*
+!.env.example
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Tooling / agent scratch
+.claude/
+.gstack/
+.cache/
+.temp/
+.tmp/
+*.lock
+!package-lock.json
+
+# Large media assets
+# The 123MB source JPEG sequence is not kept in the working tree — it lives in git
+# history at e5b44e6. scripts/build-frames.sh regenerates the committed WebP tiers
+# under public/frames/ from it.
+public/frames-src/
